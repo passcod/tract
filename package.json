@@ -1,0 +1,21 @@
+{
+  "name": "cejs",
+  "version": "1.0.0",
+  "description": "Compile EJS templates with a command",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/passcod/cejs.git"
+  },
+  "keywords": [
+    "ejs",
+    "template",
+    "cli"
+  ],
+  "author": "Félix Saparelli <me@passcod.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/passcod/cejs/issues"
+  },
+  "homepage": "https://github.com/passcod/cejs#readme"
+}
