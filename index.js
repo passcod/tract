@@ -9,7 +9,7 @@ var yaml = require('js-yaml')
 process.argv.shift()
 process.argv.shift()
 if (process.argv.length < 1) {
-  console.error('Usage: cejs template.hbs [data files...]')
+  console.error('Usage: tract template.hbs [data files...]')
   console.error('  Data files can be either JSON, YAML, .env')
   process.exit(64)
 }
@@ -19,12 +19,12 @@ var templateFile = process.argv.shift()
 var dataFiles = process.argv
 
 var locals = {}
-dataFiles.forEach(function(file) {
+dataFiles.forEach(function (file) {
   var ext = _.last(file.split('.'))
-  
+
   var contents
   if (ext === 'env') {
-    contents = file;
+    contents = file
   } else {
     try {
       contents = fs.readFileSync(path.join(cwd, file)).toString()

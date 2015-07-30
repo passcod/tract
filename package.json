@@ -1,26 +1,26 @@
 {
-  "name": "cejs",
+  "name": "tract",
   "version": "1.0.0",
-  "description": "Compile EJS templates with a command",
+  "description": "Compile templates with a simple command",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/passcod/cejs.git"
+    "url": "git://github.com/passcod/tract.git"
   },
   "bin": {
-    "cejs": "index.js"
+    "tract": "index.js"
   },
   "keywords": [
     "cli",
-    "ejs",
+    "handlebars",
     "template"
   ],
   "author": "Félix Saparelli <me@passcod.name>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/passcod/cejs/issues"
+    "url": "https://github.com/passcod/tract/issues"
   },
-  "homepage": "https://github.com/passcod/cejs#readme",
+  "homepage": "https://github.com/passcod/tract#readme",
   "dependencies": {
     "handlebars": "^3.0.3",
     "js-yaml": "^3.3.1",

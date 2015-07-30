@@ -1,7 +1,21 @@
-# $ cejs template.hbs [data files...]
+# tract
 
-Render a template from the command-line, passing arbitrary data files as locals.
+Render a (Handlebars) template using a single command, pulling data from files
+in JSON, YAML, or «dot env» (shell export) format, and from the environment.
 
-Latter data files override earlier ones, and the environment overrides everything.
+Data files specified later override earlier ones, and envvars override all.
+
+## Synopsis
+
+    $ tract template.hbs [data files...]
+
+    $ tract template.hbs # Environment variables only
+    $ tract template.hbs test.yml config.json .env.default .env
+
+## Install
+
+    $ npm install -g tract
+
+## Author
 
 Made by Félix Saparelli and released under MIT.
