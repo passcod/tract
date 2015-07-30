@@ -7,15 +7,27 @@
     "type": "git",
     "url": "git://github.com/passcod/cejs.git"
   },
+  "bin": {
+    "cejs": "index.js"
+  },
   "keywords": [
+    "cli",
     "ejs",
-    "template",
-    "cli"
+    "template"
   ],
   "author": "Félix Saparelli <me@passcod.name>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/passcod/cejs/issues"
   },
-  "homepage": "https://github.com/passcod/cejs#readme"
+  "homepage": "https://github.com/passcod/cejs#readme",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "js-yaml": "^3.3.1",
+    "lodash": "^3.10.0",
+    "node-env-file": "^0.1.7"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4"
+  }
 }
