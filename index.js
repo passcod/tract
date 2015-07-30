@@ -9,7 +9,7 @@ var yaml = require('js-yaml')
 process.argv.shift()
 process.argv.shift()
 if (process.argv.length < 1) {
-  console.error('Usage: cejs <template.hbs> [data files...]')
+  console.error('Usage: cejs template.hbs [data files...]')
   console.error('  Data files can be either JSON, YAML, .env')
   process.exit(64)
 }
