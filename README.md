@@ -1,5 +1,7 @@
 # tract
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/passcod/tract.svg)](https://greenkeeper.io/)
+
 Render a (Handlebars) template using a single command, pulling data from files
 in JSON, YAML, or «dot env» (shell export) format, and from the environment.
 
