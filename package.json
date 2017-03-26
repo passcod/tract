@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/passcod/tract#readme",
   "dependencies": {
-    "handlebars": "^3.0.3",
+    "handlebars": "^4.0.6",
     "js-yaml": "^3.3.1",
-    "lodash": "^3.10.0",
+    "lodash": "^4.17.4",
     "node-env-file": "^0.1.7"
   },
   "devDependencies": {
-    "standard": "^4.5.4"
+    "standard": "^9.0.2"
   }
 }
