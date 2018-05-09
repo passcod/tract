@@ -57,4 +57,3 @@ dataFiles.forEach(function (file) {
 locals = _.merge(locals, process.env)
 var template = Handlebars.compile(fs.readFileSync(templateFile).toString())
 console.log(template(locals))
-
